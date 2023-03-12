@@ -1,1 +1,1 @@
-https://blk999.github.io/cssBayan/cssBayan/index.html
+https://blk999.github.io/cssBayan/index.html
