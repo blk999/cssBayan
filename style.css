@@ -19,8 +19,6 @@ body {
   display: block;
 }
 
-
-
 .accordion {
   
   text-align: left;
@@ -48,19 +46,12 @@ body {
 
 .accordion:hover + .meme {
   display: block;
-  transition: 4s;
 }
 
 .meme:hover {
   display: block;
   cursor: pointer;
 }
-
-.meme:hover {
-  display: block;
-  cursor: pointer;
-}
-
 
 .meme {
     display: none;
