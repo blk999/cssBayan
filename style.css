@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+.wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    
+}
+
+.wrapper:hover button {
+  color: black;
+  cursor: pointer;
+}
+
+.wrapper:hover .accordion:after {
+  display: block;
+}
+
+.accordion {
+  
+  text-align: left;
+  width: 100%;   
+  height: 100px;
+  border: none;
+  border-top: 2px solid rgb(181, 180, 180);
+  font-family: fantasy;
+  font-size: 25px;
+  color: blue;
+
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 15px;
+    float: right;
+    padding-right: 15px;
+    display: none;
+  }
+
+.accordion:hover:after {
+    content: "\2796"; 
+}
+
+.accordion:hover + .meme {
+  display: block;
+}
+
+.meme:hover {
+  display: block;
+  cursor: pointer;
+}
+
+.meme {
+    display: none;
+}
+
+
+
